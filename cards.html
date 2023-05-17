@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Materialize Project</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="blue-grey darken-3">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo right">LogoCorporativo</a>
+            <a href="" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="left left hide-on-med-and-down ">
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+             <li>
+                 <a href="#" class="dropdown-trigger" data-target="id_drop">
+                     Dropdown
+                     <i class="material-icons right">arrow_drop_down</i>
+                 </a>
+                 <ul id="id_drop" class="dropdown-content">
+                     <li><a href="#">Item</a></li>
+                     <li><a href="#">Item</a></li>
+                     <li class="divider"></li>
+                     <li><a href="#">Item</a></li>
+                 </ul>
+             </li>
+        </div>
+    </nav>
+</div>
+<ul class="sidenav" id="menu-responsive">
+    <li><a href="">Enlace</a></li>
+    <li><a href="">Enlace</a></li>
+    <li><a href="">Enlace</a></li>
+    <li>
+        <a href="#" class="dropdown-trigger" data-target="id_dropm">
+            Dropdown
+            <i class="material-icons right">arrow_drop_down</i>
+        </a>
+        <ul id="id_dropm" class="dropdown-content">
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+    </li>
+</ul>  
+   <div class="container center-align">
+    <h1 class="flow-text z-depth-5 blue-text">Construccion de Cards</h1>
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="card  blue-grey darken-3">
+                <div class="card-image">
+                  <img src="./img/img1.jpg" alt="">
+                  <span class="card-title white-text">
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>EXPLICACIONES 
+                  </span>
+                </div>
+
+                <div class="card-content white-text">
+                  <p>Esta es una card simple la cual  tiene estilos de sombra ya prediseñados por  materialize con la clase card-content</p> 
+                  <p><a href="#">Link a la Informacion</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card  blue-grey darken-3">
+                  <div class="card-image">
+                    <img src="./img/img2.jpg" alt="">
+                    <span class="card-title">CREACION DE TITULOS</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                  </div>
+
+                  <div class="card-content white-text">
+                    <p>
+                      Debajo del titulo creado dentro de una etiqueta p. para  crear un titulo utilizamos la etiqueta card
+                      <p><a href="#">Link a la Informacion</a></p>
+                    </p>
+                  </div>
+                </div>
+            </div>
+              <div class="col s12 m4">
+                <div class="card  blue-grey darken-3">
+                    <div class="card-image">
+                      <img src="./img/img3.jpg" alt="">
+                      <span class="card-title ">COLORES DE FONDO</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    </div>
+
+                    <div class="card-content white-text">
+                      <p>
+                        Agregamos a la clase card el color asi card blue-grey darken-3 y al texto en card-content white-text por ejemplo texto blanco para hacer contraste
+                      </p>
+                      <p><a href="#">Link a la Informacion</a></p>
+                    </div>
+                  </div>
+                </div>
+            
+              <div class="col s12 m12 l12">
+                  <div class="card medium horizontal blue-grey darken-3">
+                    <div class="card-image">
+                      <img src="img/img3.jpg" alt="">
+                    </div>
+                    <div class="card-content white-text ">
+                      <p>
+                        Esta es una imagen horizontal utilizando la clase card horizontal usandola
+                        en el contenedor principal card
+                        <p><a href="#">Link a la Informacion</a></p>
+                      </p>
+                        
+                    </div>
+                      
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card Medium blue-grey darken-3">
+                    <div class="card-image ">
+                      <img src="./img/img7.jpg" alt="">
+                      <span class="card-title ">USANDO LINKS EN LAS CARDS</span><!--este es un titulo-->
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-content ">
+                      <p class=" white-text">
+                        para eso utilizamos la clase card action en la parte de abajo de nuesta card como una division mas, para luego colocar el link hacia donde dirijimos al usuario
+                      </p>
+                      <p><a href="#">Link a la Informacion</a></p>
+                    </div>
+                                  
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card  blue-grey darken-3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    <img  src="img/img6.jpg" alt="" class="activator">
+                    </div>
+
+                    <div class="card-content blue-grey darken-3">
+                      <span class="card-title activator  white-text">Informacion Desplegable
+                      <i class="material-icons right">more_vert</i></span>
+                      <p ><a href="#">Link a la Informacion</a></p>
+                    </div>
+
+                    <div class="card-reveal">
+                      <span class="card-title  white-text">Desplegando la Informacion<i class="material-icons right">close</i></span>
+                      <blockquote>
+                        En la clase card title pondremos la clase activator que es lo que nos va a activar el despliegue y usamos la clase card reveals con un span con el titulo y la palabra close 
+                        que es la x de cierre y los 3 puntitos es el more_vert.
+                        <blockquote>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card  blue-grey darken-3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    <img  src="img/img6.jpg" alt="" class="activator">
+                    </div>
+
+                    <div class="card-content blue-grey darken-3">
+                      <span class="card-title activator  white-text">Informacion Desplegable
+                      <i class="material-icons right">more_vert</i></span>
+                      <p ><a href="#">Link a la Informacion</a></p>
+                    </div>
+
+                    <div class="card-reveal">
+                      <span class="card-title  white-text">Desplegando la Informacion<i class="material-icons right">close</i></span>
+                      <blockquote>
+                        En la clase card title pondremos la clase activator que es lo que nos va a activar el despliegue y usamos la clase card reveals con un span con el titulo y la palabra close 
+                        que es la x de cierre y los 3 puntitos es el more_vert.
+                        <blockquote>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+       
+        <h2 class="flow-text z-depth-5 blue-text">Tabs in Card</h2>
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content cyan accent-4 white-text">
+              <p>
+                para agregar las tabs en una card con el objetivo de tener mas 
+                informacion disponible, esto lo hacemos inicializando JavaScript en nuestro proyecto poniendo una etiqueta script abajo antes del cierre del body es  => M.AutoInit();
+              </p>
+            </div>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a href="#testUno">Test Uno</a></li>
+                <li class="tab"><a href="#testDos">Test Dos</a></li>
+                <li class="tab"><a href="#testTres">Test Tres</a></li>
+              </ul>
+            </div>
+            <div class="card-content blue-grey darken-3 white-text">
+              <div id="testUno">Primer Tab</div>
+              <div id="testDos">Segundo Tab tab</div>
+              <div id="testTres">Tercer Tab</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large blue-grey darken-3">
+          <i class="large material-icons"><i class="fa-regular fa-comment"></i></i>
+        </a>
+        <ul>
+          <li><a class="btn-floating green" href="https://t.me/codigoespaguetti"><i class="fab fa-telegram"></i></i></a></li>
+          <li><a class="btn-floating blue" href="https://www.facebook.com/alexander.gallego.984786"><i class="fab fa-facebook"></i></i></a></li>
+          <li><a class="btn-floating red" href="https://www.instagram.com/jhonzapata75"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="btn-floating blue" href="https://www.linkedin.com/in/jhon-zapata18"><i class="fab fa-linkedin"></i></i></a></li>
+          <li><a class="btn-floating green" href="https://wa.me/573136070484"><i class="fab fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+       
+           <div class="row s12 m4">
+              <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="https://images.pexels.com/photos/6011215/pexels-photo-6011215.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#two!"><img src="https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#three!"><img src="https://images.pexels.com/photos/73910/mars-mars-rover-space-travel-robot-73910.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#four!"><img src="https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#five!"><img src="https://images.pexels.com/photos/6153741/pexels-photo-6153741.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#two!"><img src="https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#three!"><img src="https://images.pexels.com/photos/73910/mars-mars-rover-space-travel-robot-73910.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#four!"><img src="https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+                <a class="carousel-item" href="#five!"><img src="  https://images.pexels.com/photos/3791844/pexels-photo-3791844.jpeg?auto=compress&cs=tinysrgb&w=600"></a>
+              </div>
+            </div>
+            
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"> </script>
+   
+    <script src="https://kit.fontawesome.com/5eca98f609.js" crossorigin="anonymous"></script>
+   
+    <script src="js/main.js"></script>
+   
+  </body>
+</html>

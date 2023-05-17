@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Materialize Project</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+      <blockquote>
+      slides de imagenes con indicadores usando html, css, javascripty meterialize
+    </blockquote>
+    </div> 
+      
+      <div class="container section">
+        <div class="row">
+
+          <div class="col s12">
+
+            <div class="slider">
+              <ul class="slides">
+                <li>
+                  <img src="https://images.pexels.com/photos/16689312/pexels-photo-16689312.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>Inteligencia Artificial Conversacional</h3>
+                    <h5 class="light grey-text text-lighten-3">Transformando la comunicación con Inteligencia Artificial.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16027812/pexels-photo-16027812.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption left-align">
+                    <h3>Chatbot Avanzado AI</h3>
+                    <h5 class="light grey-text text-lighten-3">Conversaciones naturales y respuestas precisas garantizadas.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16115908/pexels-photo-16115908.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption right-align">
+                    <h3>Conversaciones Inteligentes</h3>
+                    <h5 class="light grey-text text-lighten-3">La próxima generación de asistentes virtuales inteligentes.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16689653/pexels-photo-16689653.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>Comunicación Inteligente AI!</h3>
+                    <h5 class="light grey-text text-lighten-3">Respuestas inteligentes para tus preguntas más difíciles.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16689017/pexels-photo-16689017.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>Asistente Virtual Potente!</h3>
+                    <h5 class="light grey-text text-lighten-3">Descubre el poder de la comunicación automatizada.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16027811/pexels-photo-16027811.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>Asistente Virtual Potente!</h3>
+                    <h5 class="light grey-text text-lighten-3">Descubre el poder de la comunicación automatizada.</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div> 
+        </div>
+      </div>   
+      
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script><!-- ruta del archivo javascript incluyendolo dentro del html -->
+ 
+   <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems,{
+       indicators:false, 
+       interval:4000,
+       height:500
+      });
+      });
+   </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Materialize Project</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-2ZWMoC4J+qr6h2HDjIcP+wS3bGH17KNr13/u9s6AtPNi/BQ4w5ieZTf7OPfJXeZzKdZJX3KB4CC59K1h4iK6kw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body class="custom-body">
+  
+  <div class="container">
+    <h3 class="center-align z-depth-5 grey">
+        BOTON FLOTANTE
+    </h3>
+    <div class="container">
+      <blockquote>
+        En este proyecto estamos desarrollando un menu dentro de una toolbar que contiene las redes sociales en este caso pero tambien puede ser utilñizado para otras funciopnes ya que puede contener links que nos llevan a otras secciones del sitio web o a otros sitios web externos
+      </blockquote>
+    </div>
+
+    </div>
+      <div class="fixed-action-btn toolbar">
+          <a class="btn-floating btn-large light-blue darken-4">
+            <i class="large material-icons">attach_file</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating" href="https://www.facebook.com/alexander.gallego.984786"><i class="fab fa-facebook"></i></i></a></li>
+            <li><a class="btn-floating" href="https://www.instagram.com/jhonzapata75"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="btn-floating" href="https://www.linkedin.com/in/jhon-zapata18"><i class="fab fa-linkedin"></i></i></a></li>
+            <li><a class="btn-floating" href="https://wa.me/573136070484"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+      </div>
+      
+    
+      <div class="container section">
+        <div class="row">
+
+          <div class="col s12">
+
+            <div class="slider">
+              <ul class="slides">
+                <li>
+                  <img src="https://images.pexels.com/photos/16689312/pexels-photo-16689312.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>la vida como la conocemos Cambiará ya!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16027812/pexels-photo-16027812.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16115908/pexels-photo-16115908.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://images.pexels.com/photos/16689653/pexels-photo-16689653.jpeg?auto=compress&cs=tinysrgb&w=600"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div> 
+        </div>
+      </div>   
+    
+    
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+
+    </script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit();
+    });
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.fixed-action-btn');
+      var instances = M.FloatingActionButton.init(elems, {
+        toolbarEnabled: true
+      });
+    });
+    </script>
+    <script src="https://kit.fontawesome.com/5eca98f609.js" crossorigin="anonymous"></script>
+    <script>
+      var instance = M.Carousel.init({
+      indicators: true
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems,{
+     indicators:false, 
+     interval:2000,
+     height:500
+    });
+    });
+ </script>
+</body>
+</html>

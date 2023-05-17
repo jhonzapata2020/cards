@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Materialize Project</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="deep-purple">
+          <div class="nav-wrapper container">
+            <a href="#" class="brand-logo right">LogoCorporativo</a>
+            <ul class="left hide-on-med-and-down">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">contacts</a></li>
+              <li><a href="#">projects</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    <div class="container flow-text">
+        <h3 class="center-align ">
+            TUTORIAL PASO A PASO PROGRAMANDO CON MATERIALIZE
+        </h3>
+    </div>
+    
+   <div class="container section">
+     <blockquote>
+        Esta es una cita de ejemplo que usa la etiqueta blockquote.te tag.
+      </blockquote>
+      <p class="flow-text z-depth-5"> esta es la sintaxys "flow-text z-depth-5"Soy Flow Text Un defecto común que hemos visto en muchos FRAME-WORKS  es la falta de soporte para texto verdaderamente receptivo. Mientras que los elementos de la página cambian de tamaño de forma fluida, el texto aún cambia de tamaño de forma fija. Para mejorar este problema, para páginas con mucho texto, hemos creado una clase que escala de forma fluida el tamaño del texto y la altura de línea para optimizar la legibilidad para el usuario. La longitud de la línea se mantiene entre 45 y 80 caracteres y la altura de la línea escala para ser más grande en pantallas más pequeñas. Para ver Flow Text en acción, cambie lentamente el tamaño de su navegador y observe cómo cambia el tamaño de este cuerpo de texto. ¡Use el botón de arriba para activar/desactivar el flujo de texto para ver la diferencia!<br>
+    
+    Para ver Flow Text en acción, cambie lentamente el tamaño de su navegador y observe cómo cambia el tamaño de este cuerpo de texto. ¡Use el botón de arriba para activar/desactivar el flujo de texto para ver la diferencia!
+    </p>
+    
+    <h4 class="z-depth-5 section">Para hacer cards con  sombra con texto adentro lo hacemos con la clase (z-depth-1) y si le cambiamos el numero -1 por otro el tamaño de la sombra cambia  y agregando  la sintaxys z-depth-2, se deben poner en maximo de sombre -5. NOTA: si agregamos la clase section se agrega un padding o espacio arriba y abajo y asi se separa el texto del bordo
+    </h>
+    <h4 class="z-depth-2 section">
+        "notese que este h4 tiene el grado de shadow 2 asi que la sombra sera mas pequeña es genial para desarrollar cards"
+    </h4>
+    <h1 class="center-align">imagenes</h1>
+    <h4 class ="z-depth-5 section"> 
+        A continuacion vamos a hacer las imagenes responsivas, para esto utilizamos la clase responsive-img. hacemos un contenedor con una clase row y adentro un div para las imagenes con la clase col s12 m4 para que en dispositivos de 600px hacia abajo se visualize una imagen por fila o sea que ocupe cada inmagen las 12 columnas y para poner m4 para que despues de 900px se ubiquen 3 imagenes  en la fila 
+    </h4>
+    <div class="row">
+        <div class="col s12 m4 ">
+        <img class="responsive-img" src="https://images.pexels.com/photos/4846609/pexels-photo-4846609.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+    <div class="row">
+        <div class="col s12 m4 ">
+        <img class="responsive-img" src="https://images.pexels.com/photos/5273347/pexels-photo-5273347.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+    <div class="row">
+        <div class="col s12 m4 ">
+        <img class="responsive-img" src="https://images.pexels.com/photos/6788306/pexels-photo-6788306.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+    <h4 class ="z-depth-5 section">
+        A continuacion vamos a agregar una imagen circular para eso tan solo agregamos la clase circle adelente de la clase responsive-img
+    
+    </h4>  
+        <div class="row">
+            <div class="col s12 m6 l4 ">
+            <img class="circle responsive-img" src="https://images.pexels.com/photos/6788306/pexels-photo-6788306.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div> 
+        <div class="video-container">
+            <iframe width="600" height="400" src="//https://www.youtube.com/watch?v=IYy2pJybD1c&t=471s" frameborder="0" allowfullscreen></iframe>
+          </div>
+    </div> 
+    <h2 class="center-align">BOTONES</h2>
+    <h4 class ="z-depth-5 section">
+        A continuacion vamos a agregar los botones. los voy a agregar dentro de una seccion con la tag button con la clase btn le pondre boton 1 y al otro boton 2. metiendo la clase btn blue-gray dentro de una etiqueta "a" obtendremos un boton de color gris que nos lleva a otra pagina los podemos visualizar en la segunda linea de botones que vemos abajo.podemos ponerles diferentes tamaños con la clase btn-small , btn-large. y con la clase disabled renderizamos un boton desativado. Ahora en cuarta linea de botones hemos agregado la clase "waves-effect waves-light btn" esto leda un efecto que al hacer click haga un movimiento de olas.
+        <h4 class ="z-depth-5 section">agreguemos un icono de una camara de video a un boton o afuera:
+            para esto nos vamos a la pagina de material-desings de googleapis  <a href="https://fonts.google.com/icons?icon.category=av&icon.set=Material+Icons">sitio web de descarga de material icons</a> de aqui copiamos el nombre del icono que queremos traer a nuestra web o adentro del componente que queramos
+        </h4>
+        
+        
+        
+        <div class="section">
+            <button class="btn-small blue-grey">boton 1</button>
+            <a href="#" class="btn-small blue-grey">Arriba</a>
+        </div>
+        <div class="section">
+            <button class="btn">boton 1</button>
+            <a href="#" class="btn">Arriba</a>
+            <button class="btn-flat">boton 1</button>
+        </div>
+        <div class="section">
+            <button class="btn-large orange">boton 1</button>
+            <a href="#" class="btn-large orange">Arriba</a>
+            <a href="#" class="btn red disabled">Arriba</a>
+        </div>
+        <div class="section">
+            <button class="waves-effect waves-dark btn">
+            <i class="material-icons left">video_call</i>
+                boton 1
+            </button>
+            <a href="#" class="btn">Arriba</a>
+            <button class="btn-flat">boton 1</button>
+            <button class="waves-effect waves-red btn">boton 1</button>
+            <button class="waves-effect waves-dark btn">
+                <i class="material-icons right">video_call</i>
+                    boton 1
+                </button>
+        </div>
+        <button class="red">
+            <i class="material-icons left">video_call</i>
+                
+        </button>
+        <button class="red">
+            <i class="material-icons left">pause_circle_filled</i>
+                
+        </button>
+        <div class="section">
+            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        
+    </h4> 
+
+        
+         
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+
+    </script>
+</body>
+</html>

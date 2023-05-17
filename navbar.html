@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Materialize Project</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="purple">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo right">LogoCorporativo</a>
+            <a href="" data-target="menu-responsive" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="left left hide-on-med-and-down ">
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+             <li>
+                 <a href="#" class="dropdown-trigger" data-target="id_drop">
+                    Dropdown
+                    <i class="material-icons right">arrow_drop_down</i>
+                 </a>
+                 <ul id="id_drop" class="dropdown-content">
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Item</a></li>
+                 </ul>
+             </li>
+        </div>
+        
+       
+    </nav>
+</div>
+<ul class="sidenav" id="menu-responsive">
+    <li><a href="">Enlace</a></li>
+    <li><a href="">Enlace</a></li>
+    <li><a href="">Enlace</a></li>
+    <li>
+        <a href="#" class="dropdown-trigger" data-target="id_dropm">
+            Dropdown
+            <i class="material-icons right">arrow_drop_down</i>
+        </a>
+        <ul id="id_dropm" class="dropdown-content">
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+    </li>
+</ul>  
+<div class="container">
+  <blockquote style="text-align: justify;">
+    En este proyecto estamos desarrollando un menu de navegacion con lista desplegable tipo categorias mediante  listas desordendas de un div class navbar-fixed adentro una etiqueta nav qeu contiene primero al logo, luego un href con un data-target  llamado menu-responsive en este caso con la clase sidenav-triguer de materialize. De igual manera en la parte de abajo estamos ubicando dos componentes cada uno en 6 columnas como ya sabemos  el grid usa 12 columnas en toda la pantalla
+  </blockquote>
+   <div class="row">
+      <div class="col s6">
+        <div class="section">
+          <img src="./img/pexels-quang-nguyen-vinh-2131801.jpg" class="materialboxed responsive-img" data-caption="esta es una imagen de un paisaje hecho por la inteligencai artificial dall-e">
+        </div>
+      </div>  
+      <div class="col s6">
+        <div class="section">
+          <blockquote  style="text-align: justify;">
+            Para ubicar este texto a la derecha de esta imagen hemos tomado 6 columnas con la clase col s6 luego en la etiqueta blockquote hemos agregado una etiqueta style con text-align: justify y asi hemos logrado justificar el texto. Si das click sobre la imagen podras notar que la imagen se agranda mostrandose de una mejor manera esto se logra con la clase materialboxed dentro de la etiqueta img seguido de la clase responsive-image para que la imagen repete las 6 columnas que se le asignaron y asi poder utilizar las otras 6  columnas restantes para este parrafo que se podria usar como parrafo descriptivo en un sitio web.
+          </blockquote>
+        </div>
+      </div>
+    </div>  
+    
+</div>
+ 
+       <!-- Compiled and minified JavaScript -->
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script><!-- ruta del archivo javascript incluyendolo dentro del html -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
+      });
+    </script>  
+</body>
+</html>
